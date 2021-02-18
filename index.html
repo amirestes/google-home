@@ -10,19 +10,25 @@
 
 <body>
     <header>
-        <ul>
-            <li>About</li>
-            <li>Store</li>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li><button type="button">Sign In</button></li>
-        </ul>
+        <nav class="navbar">
+            <ul>
+                <li>About</li>
+                <li>Store</li>
+            </ul>
+            <ul class="push-right">
+                <li>Gmail</li>
+                <li>Images</li>
+                <li><button type="button" class="sign-in">Sign In</button></li>
+            </ul>
+        </nav>
     </header>
-    <div class="search">
-    <img id="google" src="google.png"><br>
-    <input id="search" type="text" placeholder="Search Google or type a URL">
-
-
+    <div class="search-content">
+        <img id="google" src="google.png"><br>
+        <input id="search" type="text" placeholder="Search Google or type a URL">
+    </div>
+    <div class="buttons">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
     </div>
 
 </body>
